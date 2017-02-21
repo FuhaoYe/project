@@ -16,6 +16,66 @@ html body * span.clear, html body * div.clear, html body * li.clear, html body *
 	width: 0;
 	height: 0;
 }
+
+/*header*/
+.header-now{
+	width: 70%;
+	/*height: 176px;*/
+	background: #687456;
+	margin: 0 auto;
+	margin-top: 15px;
+	border-radius: 5px 5px 0 0;
+}
+.header-now-img{
+	width: 80px;
+	height: 80px;
+	display: block;
+	margin-left: 60px;
+}
+ul.topnav {
+	/*width: 920px;*/
+    list-style-type: none;
+    margin: 0 10px 0 10px;
+    border-radius: 0 5px 0 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+	font-size: 19px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #166BA1;}
+
+@media screen and (max-width: 768px){
+   
+	.header-now{
+		width: 100%;
+	}
+	.header-now-img{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 600px){
+   
+    ul.topnav li {float: none;margin-left: 0px;}
+}
+/*header结束*/
+
+
+
+
 .clear {
 	clear: both;
 	display: block;
@@ -848,6 +908,13 @@ table.revRat .rating {
 	display: none;
 	padding: 10px;
 }
+
+
+
+
+
+
+
 /*FOOTER*/
 .footer-area {
 	width: 960px;	
@@ -900,6 +967,11 @@ footer nav, footer, footer nav li a:visited, footer a:visited, footer .menu-item
 	color: #fff;
 	text-shadow: none;
 }
+
+
+
+
+
 /*BUTTON*/
 .btn {
 	display: inline-block;
@@ -1052,6 +1124,9 @@ footer nav, footer, footer nav li a:visited, footer a:visited, footer .menu-item
 @media (min-width: 601px) {
 .grid_1, .grid_2, .grid_3, .grid_4, .grid_6, .grid_7, .grid_9, .grid_10, .grid_11, .grid_12, .grid_13, .grid_14, .grid_15, .grid_16 {
 	float: left;
+}
+.header-now{
+	width: 940px;
 }
 body {
 	min-width: 960px;
@@ -1338,6 +1413,9 @@ ul.button-wrapper {
 	padding: 0;
 }
 }
+
+
+
 @media (max-width: 390px) {
 ul.button-wrapper {
 	padding-left: 0px;
