@@ -298,7 +298,7 @@ header {
 }
 
 body {
-	background: #454849;
+	background: #3D5169;
 	font-family: 'Hind', sans-serif;
 	font-size: 10pt;
 	font-weight: normal;
@@ -313,13 +313,14 @@ body {
 	-webkit-border-radius: 0px 0px 7px 7px;
 	border-radius: 0px 0px 7px 7px;
 	padding: 10px 0;
+	
 }
 
 .wraper {
 	-moz-border-radius: 7px;
 	-webkit-border-radius: 7px;
 	border-radius: 7px;
-	padding: 10px 0;
+	/*padding: 10px 0;*/
 }
 
 .wraper-main {
@@ -1132,13 +1133,18 @@ table.revRat .rating {
 /*FOOTER*/
 
 .footer-area {
-	width: 960px;
+	overflow: hidden;
+	width: 940px;
+	background: #484848;
 	margin: 0 auto;
+	border-radius: 10px;
 }
 
 footer.bottom {
+	/*background: red;*/
 	padding: 10px 5px;
 	margin: 10px;
+	margin-left: 0;
 	text-align: center;
 	color: #555;
 	text-shadow: 0px 1px #000;
@@ -1407,7 +1413,8 @@ body {
 	width: 300px;
 }
 footer.bottom {
-	width: 930px !important;
+	width: 100% !important;
+	/*border-radius: 5px;*/
 }
 .navigation-mobile {
 	display: none;
@@ -1567,10 +1574,12 @@ ul.button-wrapper {
 		float: left;
 	}
 }
+
 @media (max-width: 977px) {
 	.ratingBoardWrapper {
 		margin: 0;
 	}
+
 }
 @media (max-width: 600px) {
 	body {
@@ -1785,6 +1794,7 @@ ul.button-wrapper {
 }
 
 @media (max-width: 360px) {
+
 	ul.button-wrapper {
 		font-size: 10px;
 	}
@@ -1801,3 +1811,4 @@ ul.button-wrapper {
 		margin-top: -5px;
 	}
 }
+
