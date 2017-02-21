@@ -313,13 +313,14 @@ body {
 	-webkit-border-radius: 0px 0px 7px 7px;
 	border-radius: 0px 0px 7px 7px;
 	padding: 10px 0;
+	
 }
 
 .wraper {
 	-moz-border-radius: 7px;
 	-webkit-border-radius: 7px;
 	border-radius: 7px;
-	padding: 10px 0;
+	/*padding: 10px 0;*/
 }
 
 .wraper-main {
@@ -1132,10 +1133,11 @@ table.revRat .rating {
 /*FOOTER*/
 
 .footer-area {
-
-	width: 960px;
-
+	overflow: hidden;
+	width: 940px;
+	background: #484848;
 	margin: 0 auto;
+	border-radius: 10px;
 }
 
 footer.bottom {
@@ -1412,7 +1414,7 @@ body {
 }
 footer.bottom {
 	width: 100% !important;
-	border-radius: 5px;
+	/*border-radius: 5px;*/
 }
 .navigation-mobile {
 	display: none;
